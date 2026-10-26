@@ -8,7 +8,7 @@
 
 - **配色**：深靛蓝 `#0B1E3F` + 寒玉白 `#DCE6F2` + 星屑金 `#E8C77A`（仅用于灯与星轨点缀，面积 <10%）
 - **光线**：单一冷月光 + 星云海自发光 + 暖灯小面积对冲；全片光向统一为左上方
-- **角色锚点**：一名年轻司星仙官，月白广袖深衣、银线云纹、束发戴小莲冠、手提六角绢灯（全片唯一人物，5 镜同款）
+- **角色锚点**：一名**年轻女性**司星仙官，月白广袖深衣、银线云纹、束发戴小莲冠、手提六角绢灯（全片唯一人物，5 镜同款；英文 prompt 统一写 `young female astronomer`，正式制作须先出角色三视图并锁 seed——首轮验证已出现跨镜性别漂移，见 validation-scheme-A 报告）
 - **关键道具**：六角绢灯、青玉星册、璇玑青铜星盘
 - **主奇观配额**：鲲鹏（2 镜，远景/剪影）、星盘（1 镜）、倒悬星塔（1 镜）、星图涡旋（1 镜）
 - **雅事**：提灯远望 → 校星册 → 凭栏渡桥 → 穿星门 → 静立观涡（5 种不重复）
@@ -22,7 +22,7 @@
 
 **EN Keyframe**
 ```
-Vertical 9:16 cinematic night keyframe, a dim ancient Chinese observatory terrace: dark bronze armillary sphere and cinnabar columns framing the foreground, a young celestial astronomer in moon-white wide-sleeved robes with silver cloud embroidery standing at the lower third holding a small hexagonal silk lantern, beyond the balustrade a vast sea of clouds glows faintly bioluminescent blue like an ocean of stars, far on the horizon the enormous silhouette of a leviathan whale-like Kunpeng gliding beneath the cloud surface, deep indigo night sky with sharp stars, cold moonlight from upper left, warm lantern glow as small accent, cinematic photoreal CG, three-layer depth, sublime silence, 8k
+Vertical 9:16 cinematic night keyframe, a dim ancient Chinese observatory terrace: dark bronze armillary sphere and cinnabar columns framing the foreground, a young female celestial astronomer in moon-white wide-sleeved Han robes with silver cloud embroidery and a small lotus crown standing at the lower third holding a small hexagonal silk lantern, beyond the balustrade a vast sea of clouds glows faintly bioluminescent blue like an ocean of stars, far on the horizon the enormous silhouette of a leviathan whale-like Kunpeng gliding beneath the cloud surface, deep indigo night sky with sharp stars, cold moonlight from upper left, warm lantern glow as small accent, cinematic photoreal CG, three-layer depth, sublime silence, 8k
 ```
 **中文**：竖屏 9:16 夜间电影关键帧，幽暗古观星台：深色青铜浑天仪与朱柱框住前景，月白银纹广袖的年轻司星仙官立于下三分线、手提六角绢灯；栏外浩瀚云海泛着生物荧光般的幽蓝、宛若星海，海天交界处巨型鲲鹏剪影正贴着云面滑行；深靛夜空星辰清晰，左上冷月光，绢灯暖光小面积点缀，写实电影 CG，三层纵深，崇高静谧，8k。
 
@@ -43,7 +43,7 @@ Very slow dolly-in past the bronze armillary sphere, lantern swaying once gently
 
 **EN Keyframe**
 ```
-Vertical 9:16, an endless circular colonnade of pale jade pillars on a celestial observatory floating above a glowing blue cloud-sea at night, mirror-polished obsidian floor reflecting the pillars and a river of stars between them, a tiny white-robed astronomer kneeling at a low desk checking an open jade-star booklet, beside him a gigantic bronze armillary astrolabe disc slowly rotating, engraved constellations glowing faint gold, deep indigo and cold silver palette with one warm desk lantern, deep one-point perspective, cinematic photoreal CG, mythic scale
+Vertical 9:16, an endless circular colonnade of pale jade pillars on a traditional Chinese celestial observatory floating above a glowing blue cloud-sea at night, mirror-polished black obsidian stone floor (solid reflective stone, not water) reflecting the pillars and a river of stars between them, a tiny young female astronomer in moon-white Han robes kneeling at a low desk checking an open jade-star booklet, beside her a gigantic bronze armillary astrolabe disc slowly rotating, engraved constellations glowing faint gold, deep indigo and cold silver palette with one warm desk lantern, deep one-point perspective, cinematic photoreal CG, mythic scale, strictly traditional Chinese architecture, no western domes, no gothic arches
 ```
 **中文**：竖屏 9:16，夜间悬浮于幽蓝发光云海之上的观星台，淡玉柱围成的无尽环形柱廊，镜面黑曜石地面倒映柱列与柱间星河；渺小的白衣司星官跪坐矮案前校阅青玉星册，身旁巨型青铜璇玑星盘缓缓转动，盘上雕刻星座泛淡金微光；深靛+寒银配色，案灯一点暖光，一点透视纵深，写实电影 CG，神话尺度。
 
@@ -64,7 +64,7 @@ Slow lateral tracking along the colonnade, astrolabe rings rotating at barely vi
 
 **EN Keyframe**
 ```
-Vertical 9:16, a lone tiny figure in white robes seen from behind paused on an endless white jade bridge with faint glowing railings, the bridge spanning an ocean of bioluminescent blue clouds filled with drifting starlight, a colossal serene Kunpeng leviathan rising from the cloud sea beside the bridge and arcing overhead like a living mountain, its skin patterned with faint constellations, silver mist and luminous particles spiraling in its wake, deep indigo sky, cold moonlight, sense of overwhelming sacred scale, cinematic photoreal CG, vertical composition emphasizing the vertical ascent of the creature
+Vertical 9:16, a lone tiny young female astronomer in moon-white Han robes seen from behind paused on a straight symmetrical central-axis white jade bridge with faint glowing railings, the bridge spanning an ocean of bioluminescent blue clouds filled with sparse drifting starlight, a colossal serene Kunpeng leviathan rising from the cloud sea beside the bridge and arcing overhead like a living mountain, the creature occupying no more than one third of the frame, its skin patterned with faint constellations, silver mist and sparse luminous particles spiraling in its wake, deep indigo sky, cold crescent moonlight, sense of overwhelming sacred scale, cinematic photoreal CG, restrained saturation, vertical composition emphasizing the vertical ascent of the creature, no dense sparkles, no poster-like oversaturation
 ```
 **中文**：竖屏 9:16，渺小白衣人物背影停在一座无尽白玉桥上，栏杆微微发光，桥横跨漂浮星光的幽蓝生物荧光云海；一头巨大而安详的鲲鹏自身侧云海腾起、如活的山岳般从桥顶弓身掠过，体表隐现星座纹路，银色雾霭与发光粒子随其尾流盘旋；深靛夜空、冷月清辉，压倒性的神圣尺度，写实电影 CG，竖向构图强化鲲鹏上升动势。
 
@@ -85,7 +85,7 @@ Slow push-in toward the figure's back while the Kunpeng rises in a single contin
 
 **EN Keyframe**
 ```
-Vertical 9:16, a giant circular moon gate of carved white jade set in a dark observatory wall, through the gate a surreal mirrored celestial realm: an upright pagoda observatory and an identical upside-down pagoda hanging from the cloud ceiling above, their spires almost touching at the center line, a river of glowing stars flowing between the two mirrored towers, the white-robed astronomer with his lantern stepping through the gate as a small silhouette, reflections physically consistent in number and direction, deep indigo, silver and faint gold palette, dreamlike but structurally stable, cinematic photoreal CG
+Vertical 9:16, a giant circular moon gate of carved white jade set in a dark observatory wall, through the gate a surreal mirrored celestial realm: an upright pagoda observatory and an identical upside-down pagoda hanging from the cloud ceiling above, their spires almost touching at the center line, a river of glowing stars flowing between the two mirrored towers, the young female astronomer in moon-white Han robes with her hexagonal lantern stepping through the gate as a small silhouette, reflections physically consistent in number and direction, deep indigo, silver and faint gold palette, dreamlike but structurally stable, cinematic photoreal CG
 ```
 **中文**：竖屏 9:16，深色观星台墙上开巨型汉白玉雕花月洞门，门内是超现实镜像仙界：一座正立宝塔观星台与一座完全相同的倒悬宝塔自云顶垂下，塔尖在中线几乎相触，发光星河在两塔之间流淌；提灯白衣司星官以小剪影正步入月门；倒影数量与方向物理一致；深靛、银、淡金配色，梦幻但结构稳定，写实电影 CG。
 
@@ -106,7 +106,7 @@ Slow forward glide through the moon gate, the figure stepping forward in sync wi
 
 **EN Keyframe**
 ```
-Vertical 9:16, low-angle upward view from a celestial observatory balcony, dark carved railing along the bottom edge, the night sky filled by a vast slow vortex of clouds and stars rotating around a single brilliant fixed pole star at the center, concentric rings of deep indigo, silver and rose-gold nebula, faint constellation lines glowing within the swirl, the white-robed astronomer standing small and still at the railing with lantern lowered, luminous particles drifting like snow, sacred order and cosmic calm, painterly photoreal CG, chiaroscuro, 8k
+Vertical 9:16, low-angle upward view from a traditional Chinese celestial observatory balcony, dark carved white-jade balustrade with cloud motifs along the bottom edge, silhouettes of Chinese flying-eave rooftops with dougong brackets and glazed tile ridges at both frame corners, the night sky filled by a vast slow vortex of clouds and stars rotating around a single brilliant fixed pole star at the center, concentric rings of deep indigo, silver and rose-gold nebula, faint glowing constellation lines within the swirl, a young female astronomer in moon-white wide-sleeved Han robes with silver cloud embroidery and a small lotus crown standing still at the railing, holding a small hexagonal silk lantern, luminous particles drifting like snow, sacred order and cosmic calm, painterly photoreal cinematic CG, chiaroscuro, 8k, strictly traditional Chinese architecture, no western domes, no gothic arches, no cathedral
 ```
 **中文**：竖屏 9:16，自观星台露台低角度仰视，深色雕花栏杆沿画面下缘；夜空被巨大缓慢旋转的星辰云涡充满，环绕中心一颗明亮不动的北极星，深靛、银、玫瑰金色星云成同心环，涡旋中隐约发光的星座连线；白衣司星官提灯垂手、渺小静立栏边，发光粒子如雪飘散；神圣秩序与宇宙般宁静，油画感写实 CG，明暗对照，8k。
 

@@ -181,7 +181,7 @@ Slow pull-back widening the frame so the figure grows smaller against the moonli
 **通用 Negative Prompt**
 
 ```
-text, watermark, logo, subtitle, caption, modern objects, wires, cars, neon signs, LED, sci-fi HUD, data streams, robot, mecha, fast motion, handheld shake, lens distortion, warped architecture, floating roof with no support, extra limbs, deformed hands, mutated face, duplicated people, crowded marketplace, combat, weapon fire, sudden weather change, global light shift, cartoon, anime, lowres, jpeg artifacts, oversaturation
+text, watermark, logo, subtitle, caption, modern objects, wires, cars, neon signs, LED, sci-fi HUD, data streams, robot, mecha, fast motion, handheld shake, lens distortion, warped architecture, floating roof with no support, extra limbs, deformed hands, mutated face, duplicated people, crowded marketplace, combat, weapon fire, sudden weather change, global light shift, cartoon, anime, lowres, jpeg artifacts, oversaturation, dense sparkles, poster-like look, western domes, gothic arches, cathedral, greek columns, european castle, byzantine architecture
 ```
 
 **中文负向提示**：文字、水印、字幕、现代物体、电线、汽车、霓虹、LED、科幻界面、数据流、机器人机甲、快速运动、手持抖动、畸形建筑、无支撑飞檐、多余肢体、崩坏人脸、重复人物、拥挤集市、打斗、武器火光、天气突变、全局光线跳变、卡通动漫脸、低分辨率、过饱和。
@@ -194,7 +194,7 @@ text, watermark, logo, subtitle, caption, modern objects, wires, cars, neon sign
 
 | 方案 | 一句话概念 | 配色转向 | 核心新奇观 | 链接 |
 |---|---|---|---|---|
-| 一、北冥星海 · 鲲鹏渡 | 夜色观星仙界，云海化为发光星海 | 靛蓝 × 银白（夜场） | 云海鲲鹏、璇玑星盘、倒悬星塔 | [scheme-A-北冥星海.md](./scheme-A-北冥星海.md) |
+| 一、北冥星海 · 鲲鹏渡 | 夜色观星仙界，云海化为发光星海 | 靛蓝 × 银白（夜场） | 云海鲲鹏、璇玑星盘、倒悬星塔 | [scheme-A-北冥星海.md](./scheme-A-北冥星海.md) ｜✅ 已出图验证（[报告](./validation-scheme-A/VALIDATION-REPORT.md)） |
 | 二、东海龙庭 · 潮生月府 | 云海与潮海交界的龙族水府 | 青玉 × 珍珠白 × 灯金 | 月池镜宫、龙门瀑布、呼吸月潮 | [scheme-B-东海龙庭.md](./scheme-B-东海龙庭.md) |
 | 三、昆仑悬圃 · 霜松工坊 | 古松嵌入宫殿的秋日昆仑工坊 | 琥珀金 × 霜白 × 松绿 | 松构一体、青铜星盘、素钟回廊 | [scheme-C-昆仑悬圃.md](./scheme-C-昆仑悬圃.md) |
 
