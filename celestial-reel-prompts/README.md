@@ -40,13 +40,13 @@ Instagram 本体在当前环境返回 403，无法直接抽帧。本文件的反
 | # | 规则 | 画面证据/表现 |
 |---|---|---|
 | 1 | **建筑词汇表**：重檐飞檐、斗拱、朱柱、汉白玉栏杆与地砖、龙纹浮雕、月洞门、须弥座台基 | 朱红殿宇 + 白玉云台是识别度第一来源 |
-| 2 | **神话尺度**：人物永远小而可读（画面高度 1/8–1/15），用人体反衬建筑与云海的超大尺度；台阶可伸入天际、柱础比人高 | "one or two figures in the foreground … an enormous palace far behind" |
+| 2 | **神话尺度**：人物高度锁定画幅 **1/15（≈7%）**，全身可读、不要求面部细节，纯作尺度锚点；用人体反衬建筑与云海的超大尺度，台阶可伸入天际、柱础比人高；prompt 写 `figure height exactly one fifteenth (about 7%) of the frame`，模型公差 6–8%（第二轮出图验证） | "one or two figures in the foreground … an enormous palace far behind" |
 | 3 | **三层纵深**：暗色前景框（柱/廊/松枝/栏杆）→ 中景人物与云台 → 远景云海、群峰或天象奇观 | 即"暗宫明境"：从幽暗建筑内部望向明亮仙境 |
 | 4 | **框景揭示**：用屋檐、柱列、月洞门做"框中框"，镜头极慢前推让遮挡逐步退去 | 参考图 01 |
 | 5 | **光线二元**：黄金时刻体积光（god rays，暖金）或永恒月色/天穹涡旋（冷银+粉霞）；全片光向统一，不允许中途变天 | 标签 `#goldenlightmagic #atmosphericart` |
-| 6 | **配色锁定**：汉玉白 + 朱砂红 + 鎏金黄 + 云白（夜色版换靛蓝+银白）；饱和度克制，靠雾与光统一 | — |
-| 7 | **材质 CG 感**：抛光大理石镜面地面（倒映柱列/人物/云海）、丝绸衣袂、体积雾、无源瀑布从悬浮岛坠入云海 | 参考图 02 |
-| 8 | **运动语法**：极慢推/拉/横移/小幅升起，统一风向的微动（衣袖、披帛、云雾、花瓣、鹤），每镜最后 1 秒停稳；禁止快切、手持、无目的飞行 | 24s 仅 5–6 个镜头，每镜 4–5s |
+| 6 | **配色锁定**：汉玉白 + 朱砂红 + 鎏金黄 + 云白（夜色版换靛蓝+银白）；**低饱和调色（muted desaturated grading），每镜只许一个主光源，靠雾与光统一全画**，点缀色面积 <10%；负向词必带 `oversaturation, dense sparkles, neon` | — |
+| 7 | **电影胶片质感（非海报插画）**：`cinematic film still + anamorphic 35mm lens + ultra-photorealistic`，真实大理石纹理/青铜包浆/丝绸/体积雾；抛光大理石镜面地面须注明 `solid stone, not water`；负向词必带 `poster or illustration look, anime` | 参考图 01/02 |
+| 8 | **崇高感四件套**：大景别 `extreme wide` + 强透视灭点 + 负空间 ≥ 半幅 + 人物 1/15，缺一即塌；运动语法为极慢推/拉/横移/小幅升起，统一风向微动（衣袖、披帛、云雾、花瓣、鹤），每镜最后 1 秒停稳；禁止快切、手持、无目的飞行 | 24s 仅 5–6 个镜头，每镜 4–5s |
 
 **构图库（每条 Reel 从中取 5–6 种，不重复）**：深色大殿框景、巨型月洞门、无限柱廊、镜面玉池、临崖露台、云桥中轴、孤峰远景、天穹云涡、倒悬天宫、完整宫城外景（全片最多 1 次）、严格对称（全片最多 2 次）、醒目大圆环（全片最多 2 次）。
 
@@ -156,7 +156,7 @@ Slow pull-back widening the frame so the figure grows smaller against the moonli
 + [7 配色：主色2个 + 点缀色1个，提前锁死]
 + [8 环境微动：云海/衣袂/花瓣/鹤/雾，方向统一、幅度低]
 + [9 镜头：极慢推/拉/横移/升起/固定，最后1秒停稳]
-+ [10 风格后缀：cinematic photoreal CG, Chinese mythology aesthetic, ethereal, sublime scale, volumetric light, 8k, --ar 9:16]
++ [10 风格后缀（第二轮验证版）：extreme wide cinematic film still, anamorphic 35mm lens, ultra-photorealistic, muted desaturated grading, single light source, restrained saturation, sublime scale, vast negative space, volumetric haze, 8k, --ar 9:16；负向带 no poster/illustration look, no oversaturation, no dense sparkles, no western domes/gothic arches；人物固定 figure height exactly one fifteenth (about 7%) of the frame]
 ```
 
 **去重检查（每组 5 镜必须全部通过）**：
@@ -194,7 +194,7 @@ text, watermark, logo, subtitle, caption, modern objects, wires, cars, neon sign
 
 | 方案 | 一句话概念 | 配色转向 | 核心新奇观 | 链接 |
 |---|---|---|---|---|
-| 一、北冥星海 · 鲲鹏渡 | 夜色观星仙界，云海化为发光星海 | 靛蓝 × 银白（夜场） | 云海鲲鹏、璇玑星盘、倒悬星塔 | [scheme-A-北冥星海.md](./scheme-A-北冥星海.md) ｜✅ 已出图验证（[报告](./validation-scheme-A/VALIDATION-REPORT.md)） |
+| 一、北冥星海 · 鲲鹏渡 | 夜色观星仙界，云海化为发光星海 | 靛蓝 × 银白（夜场） | 云海鲲鹏、璇玑星盘、倒悬星塔 | [scheme-A-北冥星海.md](./scheme-A-北冥星海.md) ｜✅ 两轮出图验证（[一轮报告](./validation-scheme-A/VALIDATION-REPORT.md) ｜[二轮修复报告](./validation-scheme-A/round2/ROUND2-REPORT.md)，5 镜已定稿） |
 | 二、东海龙庭 · 潮生月府 | 云海与潮海交界的龙族水府 | 青玉 × 珍珠白 × 灯金 | 月池镜宫、龙门瀑布、呼吸月潮 | [scheme-B-东海龙庭.md](./scheme-B-东海龙庭.md) |
 | 三、昆仑悬圃 · 霜松工坊 | 古松嵌入宫殿的秋日昆仑工坊 | 琥珀金 × 霜白 × 松绿 | 松构一体、青铜星盘、素钟回廊 | [scheme-C-昆仑悬圃.md](./scheme-C-昆仑悬圃.md) |
 
